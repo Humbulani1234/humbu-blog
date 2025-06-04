@@ -45,7 +45,7 @@ ul {
 /* --- TOP ROW STYLES (AWESOME and PERFECT) --- */
 .nav-top-row {
     display: flex; /* Ensures its direct children (auth-links, search-section) are side-by-side */
-    justify-content: space-between; /* Pushes auth links to left, search to right */
+    justify-content: space-evenly; /* Pushes auth links to left, search to right */
     align-items: center; /* Vertically centers content */
     padding-bottom: 10px;
     border-bottom: 1px solid #eee; /* Separator between rows */
@@ -60,7 +60,7 @@ ul {
 }
 
 .auth-links a {
-    color: #555;
+    color: gray;
     font-size: 0.9em;
     white-space: nowrap; /* Prevent these links from wrapping */
 }
@@ -186,7 +186,7 @@ ul {
 }
 
 .blog-content h1 {
-    font-size: 2.5em;
+    font-size: 1.2em;
     margin-bottom: 20px;
     color: #222;
     text-align: center;
@@ -202,7 +202,7 @@ ul {
 }
 
 .featured-posts h2, .recent-posts h2 {
-    font-size: 1.8em;
+    font-size: 1.2em;
     margin-bottom: 20px;
     color: #222;
     border-bottom: 2px solid #007bff;
@@ -224,7 +224,7 @@ ul {
 }
 
 .post-card h3 {
-    font-size: 1.5em;
+    font-size: 1em;
     margin-bottom: 10px;
     color: #007bff;
 }
@@ -439,6 +439,15 @@ ul {
     margin-top: 30px;
     font-size: 0.9em;
 }
+.main-footer p {
+    display: inline-block; /* Ensures icons stay inline */
+    margin: 0 10px; /* Adds spacing */
+}
+
+.main-footer {
+    text-align: center; /* Centers icons */
+}
+
 
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
