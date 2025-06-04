@@ -238,9 +238,9 @@ ul {
     display: inline-block;
     background-color: #007bff;
     color: white;
-    padding: 8px 15px;
-    border-radius: 4px;
-    font-size: 0.9em;
+    padding: 5px 11px;
+    border-radius: 2.5px;
+    font-size: 0.7em;
     transition: background-color 0.2s ease;
 }
 
