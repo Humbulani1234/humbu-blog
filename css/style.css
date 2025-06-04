@@ -55,7 +55,7 @@ ul {
 
 .auth-links {
     display: flex; /* Ensures Login, Register, Logout are inline */
-    gap: 15px; /* Space between the links */
+    gap: 4px; /* Space between the links */
     align-items: center;
 }
 
@@ -79,23 +79,23 @@ ul {
     padding: 8px 12px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    font-size: 0.9em;
-    width: 160px; /* Trimmed search space size */
+    font-size: 0.75em;
+    width: 100px; /* Trimmed search space size */
     max-width: 100%; /* Ensure it doesn't overflow on tiny screens */
-    flex-shrink: 1; /* Prevent it from shrinking too much */
+    flex-shrink: 0; /* Prevent it from shrinking too much */
 }
 
 .search-section button {
-    padding: 6px 10px;
+    padding: 8px 15px;
     background-color: #007bff; /* Primary button color */
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 0.9em;
+    font-size: 0.75em;
     transition: background-color 0.2s ease;
     white-space: nowrap; /* Prevent button text from wrapping */
-    flex-shrink: 1; /* Prevent it from shrinking too much */
+    flex-shrink: 0; /* Prevent it from shrinking too much */
 }
 
 .search-section button:hover {
@@ -271,6 +271,164 @@ ul {
     font-size: 0.9em;
 }
 
+
+/* Comments Section Styling */
+.comments-section {
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 2px solid #007bff;
+}
+
+.comments-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 25px;
+    color: #222;
+    text-align: center;
+}
+
+.comment-form-container {
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.comment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-form input,
+.comment-form textarea {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    font-family: inherit;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.comment-form input:focus,
+.comment-form textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+.comment-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.comment-submit-btn {
+    align-self: flex-start;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.comment-submit-btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-1px);
+}
+
+.comments-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.comment-item {
+    background-color: #ffffff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 20px;
+    transition: box-shadow 0.2s ease;
+}
+
+.comment-item:hover {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.comment-author {
+    font-weight: bold;
+    color: #007bff;
+    font-size: 1.1em;
+}
+
+.comment-date {
+    color: #777;
+    font-size: 0.9em;
+}
+
+.comment-content {
+    margin-bottom: 15px;
+}
+
+.comment-content p {
+    color: #444;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.comment-actions {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.reply-btn,
+.like-btn {
+    background: none;
+    border: 1px solid #ddd;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: all 0.2s ease;
+}
+
+.reply-btn {
+    color: #007bff;
+}
+
+.reply-btn:hover {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.like-btn {
+    color: #666;
+}
+
+.like-btn:hover {
+    background-color: #f8f9fa;
+    border-color: #007bff;
+    color: #007bff;
+}
 
 /* Footer Styling */
 .main-footer {
