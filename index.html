@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Blog - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <div class="nav-top-row">
+                <div class="auth-links">
+                    <a href="#" class="nav-link">Login</a>
+                    <a href="#" class="nav-link">Register</a>
+                    <a href="#" class="nav-link">Logout</a>
+                </div>
+                <div class="search-section">
+                    <input type="text" placeholder="Search blog...">
+                    <button type="submit">Search</button>
+                </div>
+            </div>
+
+            <div class="nav-bottom-row">
+                <ul class="nav-list">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">Home</a>
+                        <div class="dropdown-menu">
+                            <a href="#">Latest Posts</a>
+                            <a href="#">Popular Articles</a>
+                            <a href="#">Archives</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">Software</a>
+                        <div class="dropdown-menu">
+                            <a href="#">Web Development</a>
+                            <a href="#">Mobile Apps</a>
+                            <a href="#">DevOps Tools</a>
+                            <a href="#">Programming Languages</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">AI</a>
+                        <div class="dropdown-menu">
+                            <a href="#">Machine Learning</a>
+                            <a href="#">Deep Learning</a>
+                            <a href="#">Natural Language Processing</a>
+                            <a href="#">Computer Vision</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">Mathematics</a>
+                        <div class="dropdown-menu">
+                            <a href="#">Algebra</a>
+                            <a href="#">Calculus</a>
+                            <a href="#">Linear Algebra</a>
+                            <a href="#">Discrete Mathematics</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">Statistics</a>
+                        <div class="dropdown-menu">
+                            <a href="#">Descriptive Stats</a>
+                            <a href="#">Inferential Stats</a>
+                            <a href="#">Probability Theory</a>
+                            <a href="#">Time Series Analysis</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">Quantitative Finance</a>
+                        <div class="dropdown-menu">
+                            <a href="#">Derivatives Pricing</a>
+                            <a href="#">Risk Management</a>
+                            <a href="#">Algorithmic Trading</a>
+                            <a href="#">Financial Modeling</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">About</a>
+                        <div class="dropdown-menu">
+                            <a href="#">Our Story</a>
+                            <a href="#">Meet the Team</a>
+                            <a href="#">Contact Us</a>
+                            <a href="#">Privacy Policy</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="blog-content">
+        <h1>Welcome to My Awesome Blog!</h1>
+        <p>This is the home landing page for your new blog. Explore our articles on software, AI, mathematics, and more.</p>
+        <section class="featured-posts">
+            <h2>Featured Articles</h2>
+            <div class="post-card">
+                <h3>The Future of AI in Finance</h3>
+                <p>An in-depth look at how artificial intelligence is transforming the financial industry.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="post-card">
+                <h3>Getting Started with Python for Data Science</h3>
+                <p>A beginner-friendly guide to using Python for statistical analysis and machine learning.</p>
+                <a href="#">Read More</a>
+            </div>
+            </section>
+
+        <section class="recent-posts">
+            <h2>Recent Posts</h2>
+            <ul>
+                <li><a href="#">Understanding Convolutions in Deep Learning</a> - <small>June 3, 2025</small></li>
+                <li><a href="#">A Guide to Monte Carlo Simulations</a> - <small>May 28, 2025</small></li>
+                <li><a href="#">Best Practices for Responsive Web Design</a> - <small>May 20, 2025</small></li>
+            </ul>
+        </section>
+
+        <!-- Comments Section -->
+        <section class="comments-section">
+            <h2>Join the Discussion</h2>
+            <div class="comment-form-container">
+                <form class="comment-form">
+                    <div class="form-group">
+                        <input type="text" id="comment-name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="comment-email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="comment-text" placeholder="Share your thoughts..." rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="comment-submit-btn">Post Comment</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 My Awesome Blog. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
